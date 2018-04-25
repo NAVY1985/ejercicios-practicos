@@ -1,0 +1,30 @@
+body {
+ background-color: black;
+}
+
+body div {
+  outline: 2px solid blue;
+  padding: 2em;
+}
+
+body div #box2 {
+  background-color: red;
+  box-sizing: border-box;
+  height: 400px;
+  width: 400px;
+}
+
+div #box2 {
+  background-color: purple;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+div #box3 {
+  background-color: yellow;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+}
